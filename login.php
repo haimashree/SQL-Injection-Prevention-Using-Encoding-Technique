@@ -104,6 +104,5 @@ if (!(empty($result)) && $result->num_rows > 0) {
 else {
   echo "No rows selected";
 }
-echo base64_encode('admin');
 $conn->close();
 ?>
